@@ -44,6 +44,7 @@ flutter_test:
 All the tests that I wrote include:
 - all_task_test: To test the functionality of the page showing all lists including tests such as: checking the loaded list, changing task status, deleting tasks, and scrolling on the list. The remaining screens such as Completed Tasks and Incompleted Tasks have the same function as this screen, so they have been temporarily ignored.
 - new_task_test: To test the functionality add a new task.
+
 The test files are all automated functional tests.
 
 To run test, you use command `flutter run test/[test_file_name].dart`. Example, if you want to test the all_task_test.dart, you will use `flutter run test/all_task_test.dart` command.
